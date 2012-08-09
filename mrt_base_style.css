@@ -1,0 +1,787 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;  
+}
+
+body
+{
+    color: #4a4a4a;
+    font-family: Arial, Verdana, Sans-Serif;
+    font-size: 16px;
+}
+
+a
+{
+    color: #347A94; 
+    /*1d5188;*/
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: Green;
+}
+
+p
+{
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5
+{
+    margin-bottom: 5px;    
+}
+
+h1
+{
+    font-size: 20px;
+}
+
+h2
+{
+    font-size: 18px;
+}
+
+h3
+{
+    font-size: 16px;
+}
+
+h4
+{
+    font-size: 14px;
+}
+
+h5
+{
+    font-size: 12px;
+}
+
+img
+{
+    border: 0px solid White;
+}
+
+.clr
+{
+    clear: both;    
+}
+
+/* float clearing for IE6 */
+* html .clearfix{
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+*+html .clearfix{
+  min-height: 1%;
+}
+
+/* float clearing for everyone else */
+.clearfix:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
+
+br.clearfix 
+{
+    height: 1px;
+    clear: both;
+}
+
+.no_pad
+{
+    padding: 0 !important;
+}
+
+.no_bord
+{
+    border: none !important;
+}
+
+.width_half
+{
+    width: 278px !important;
+    float: left;
+}
+
+.width_half .acct_section 
+{
+    width: 276px !important;
+}
+
+.marg_right
+{
+    margin-right: 16px !important;    
+}
+
+/*----------------BEGIN GENERAL CONTENT STUFF--------------*/
+
+.page_specific, .logged_in_only, .logged_out_only, .mrt_cookie_only, .no_mrt_cookie_only
+{
+	display:none;
+}
+
+.master_side_bar_left
+{
+    float: left;
+}
+
+.master_side_bar_right
+{
+    float: right;
+}
+
+.mrt_wrapper
+{
+    padding: 20px 20px 20px 20px;
+}
+
+.acct_section
+{
+    border: 1px solid #ddded8; 
+    margin-bottom: 14px;   
+}
+
+.acct_section_title
+{
+    padding: 10px 13px;
+    background: #eee;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.acct_section_third_title
+{
+    float: left;
+    width: 210px
+}
+
+.acct_section_content
+{
+    padding: 10px;
+    border: 3px solid #eee;
+}
+
+.acct_sub_section
+{
+    padding: 10px;
+    width: 262px;
+    float: left;    
+	text-align: left;
+}
+
+.acct_info_row_odd
+{
+    background: #eeeeee; 
+}
+
+.title_link, .header_link
+{
+    display: block;
+    float: right;
+    font-weight: normal; 
+    text-transform: none;
+    line-height: inherit;
+}
+
+.title_link
+{
+    font-size: .9em;
+    line-height: 1.2em;
+}
+
+.header_link
+{
+    font-size: .7em;
+    line-height: 1.6em;
+}
+
+.warning_message
+{
+    color: #d9011f; 
+}
+
+/*----------------END GENERAL CONTENT STUFF--------------*/
+
+/*----------------BEGIN FORM STUFF--------------*/
+
+.login_form
+{    
+	margin: 10px 0 0; 
+}
+
+.login_form td
+{    
+	vertical-align: top; 
+    padding: 0 10px 10px 0;
+    line-height: 1.6em;
+}
+
+.mrt_label
+{
+	font-weight: bold;
+    padding: 2px 0;
+    font-size: 1em;
+    line-height: 1.6em;
+	color: #000;
+}
+
+.mrt_label a
+{
+    font-weight: normal;
+}
+
+div.mrt_label
+{
+    float: left;    
+}
+
+td.mrt_label
+{    
+    width: 130px;
+    text-align: right;
+}
+
+td.mrt_textbox_label
+{
+    padding-top: 2px;
+    text-align: right;
+}
+td.mrt_textbox_label label
+{
+	font-weight:bold;
+}
+.text-box, .radio_field, .acct_general_select, .acct_cc_exp_select
+{
+    font-size: 1.1em; 
+}
+
+.login_chk_field
+{
+    padding: 10px;   
+}
+
+.login_chk_field input
+{
+    margin: 0 10px 10px 0;
+    float: left;    
+}
+
+.text-box, .acct_general_select, .acct_cc_exp_select
+{
+    border: 1px solid #CCCCCC;
+    display: block;
+    float: left;
+    color: #4A4A4A;
+    margin-right: 10px;
+}
+
+.text-box
+{
+    height: 18px;
+    width: 230px;
+}
+
+.postalcode-text-box
+{
+    width: 91px;
+}
+
+.acct_general_select, .acct_cc_exp_select
+{
+    height: 24px;
+    line-height: 1em;
+}
+
+.acct_cc_exp_select
+{
+    width: 100px;
+}
+
+.acct_general_select
+{
+    width: 210px;
+}
+
+.text-box, .acct_cc_exp_select option, .acct_general_select option
+{
+    padding: 2px 3px;
+}
+
+.acct_cc_exp_select option, .acct_general_select option
+{
+    color: #4A4A4A;
+}
+
+.pswd_link
+{ 
+    display: block;     
+    font-size: 1.1em; 
+}
+
+.radio_field span
+{
+    display: block;
+    margin: 5px 10px 0 0;    
+}
+
+.radio_field span input
+{
+    margin-right: 10px;
+	border: none;  
+}
+
+.continue_btn, .update_btn, .back_btn
+{
+    display: block;
+    height: 22px;
+    float: right;
+    margin: 5px 0;   
+    cursor: pointer;
+    border: 0px solid white;
+}
+
+.back_btn
+{
+    float: left;
+    width: 55px;
+    background: url('Images/backBtn.png') no-repeat;
+}
+
+.continue_btn
+{
+    background: url('Images/continueBtn.png') no-repeat;
+    width: 76px;
+}
+
+.update_btn
+{
+    background: url('Images/updateBtn.png') no-repeat;
+    width: 58px;
+}
+
+.send_verification_email, .cust_verified_btn
+{
+    display: block;
+    height: 22px;
+    margin: 5px 0;   
+}
+
+.send_verification_email
+{
+    float: right;
+    width: 138px;
+    background: url('Images/sendEmailBtn.png') no-repeat; 
+    margin-right: 10px;   
+}
+
+.cust_verified_btn
+{
+    float: right;
+    width: 120px;
+    background: url('Images/custVerifiedBtn.png') no-repeat;    
+}
+
+.field-validation-checked, .field-validation-error
+{
+	min-height: 16px;
+    height: 16px;
+	height:auto !important; 
+	padding: 3px 0 0 16px;  
+    font-size: .8em;
+    display:block;
+	float: left;
+}
+
+p.success, p.error
+{
+    max-width: 100px;
+}
+
+.field-validation-checked
+{
+	width: 10px;
+    background: url('Images/validation_check.png') 0 5px no-repeat;  
+}
+
+.field-validation-error
+{
+	width: 130px;
+    background: url('Images/validation_x.png') 0 5px no-repeat;   
+    color: #d9011f;
+}
+
+.input-validation-error
+{
+    border: 1px solid #d9011f;    
+}
+
+#new_cust
+{
+    display: none;    
+}
+
+.hidden_option
+{
+    display: none;
+}
+
+/*----------------END FORM STUFF--------------*/
+
+/*----------BEGIN Account Nav-------------*/
+
+.acct_nav
+{
+    height: 34px;
+    border-bottom: 2px solid #d4d4d4;
+    margin-bottom: 14px;
+}
+
+.acct_nav div, .acct_nav_tab
+{
+    float: left;
+    position: relative;    
+}
+
+.acct_nav_tab
+{
+    z-index: 1;
+    min-width: 50px;
+    height: 13px;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    background: url('Images/acctBtnBkgrnd.gif') repeat-x;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    text-transform: uppercase;
+}
+
+.acct_nav_tab, a.acct_nav_tab:hover
+{
+    color: #4A4A4A;
+}
+
+.acct_tab_cur
+{
+    background: #fff;
+    border-bottom: none; 
+    height: 15px;   
+}
+
+.acct_nav_divider_left
+{
+    z-index: 10;
+    background: url('Images/roundedLeft.png') no-repeat top right;
+    width: 8px;
+    height: 4px;
+    margin-right: -4px;
+}
+
+.acct_nav_divider_right
+{
+    z-index: 10;
+    background: url('Images/roundedRight.png') no-repeat;
+    width: 8px;
+    height: 4px;
+    margin-left: -4px;
+}
+
+/*----------END Account Nav-------------*/
+
+/*----------BEGIN My Account Styles-------------*/
+
+.mrt_event_name
+{
+    width: 190px;
+}
+
+.mrt_date_location
+{
+    width: 200px;
+}
+
+.mrt_view_tickets
+{
+    display: block;
+    background: url('Images/mrtViewTixBtn.png') no-repeat;
+    width: 85px;
+    height: 22px;
+    padding: 0;
+    margin:  20px 10px;  
+    float: right;  
+}
+
+.recent_searches a
+{
+    display: block;
+    margin-top: 10px;    
+}
+
+/*----------END My Account Styles-------------*/
+
+/*----------BEGIN My Purchase Styles-------------*/
+
+.my_order_info_box, .verification_number_box
+{
+    background: #dff1f4;
+    border: 2px solid #ddded8;
+    padding: 15px;
+    margin-bottom: 14px;
+}
+
+.event_info
+{
+    text-align: center;    
+}
+
+.verification_number_box
+{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin: auto;  
+    text-transform: uppercase;
+    width: 180px; 
+}
+
+.purchase_confirmed
+{
+    background: url('Images/success.png') no-repeat left top;
+    text-indent: 25px;
+    float: left; 
+    min-height: 20px;  
+}
+
+.purchase_problem
+{
+    background: url('Images/error.png') no-repeat left top;
+    text-indent: 25px;
+    float: left; 
+    min-height: 20px;  
+}
+
+.print_link, .back_link, .forward_link
+{
+    color: #094b7d;
+    display: block;
+    float: left;
+}
+
+.print_link
+{
+    background: url('Images/printerIcon.png') no-repeat;
+    padding-left: 20px; 
+    float: right;  
+}
+
+.back_link
+{
+    background: url('Images/backArrow.png') 0 2px no-repeat;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.forward_link
+{
+    background: url('Images/forwardArrow.png') right 2px no-repeat;
+    padding-right: 15px;
+    margin: 10px 0;   
+}
+
+.acct_title_order_num
+{
+    color: #d9011f;
+    float: right;
+    text-transform: none;
+}
+
+.purchase_summary_header
+{
+    border-bottom: 2px solid #eee;
+    margin: 10px 0;
+    /*max-width: 310px;*/
+}
+
+.purchase_summary_section
+{
+    width: 100%;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.summary_left
+{
+    width: 310px;
+}
+
+.summary_right
+{
+    width: 220px;
+    margin-left: 14px;    
+}
+
+.divider
+{
+    border-top: 1px solid #b7b7b7;
+    display: block;
+    margin-top: 5px;
+    padding-top: 5px;    
+}
+
+.mrt_order_total_label
+{
+    text-transform: uppercase;
+}
+
+.mrt_order_discount
+{
+    color: #5F8619;
+}
+
+.mrt_order_total
+{
+    color: #d9011f;
+}
+
+.contact_seller
+{
+    background: url('Images/contactSellerBtn.png') no-repeat;
+    display: block;
+    float: left;
+    width: 94px;
+    height: 22px;
+    margin: 10px 0;
+}
+
+
+.shipping_info_tbl
+{
+    margin: 10px;
+    width: 546px;
+}
+
+.shipping_info_tbl .shipping_info_details
+{
+    width: 200px;
+}
+
+.shipping_info_tbl td
+{
+    padding: 5px 6px 5px 0;
+    vertical-align: top;
+}
+
+.shipping_info_tbl_header td
+{
+    border-bottom: 2px solid #eee;
+    font-size: 1.1em;
+    font-weight: bold;    
+}
+
+.terms_rb
+{
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.terms_rb input
+{
+    margin: 0 3px 0 10px;
+}
+
+.terms_box
+{
+    border: 1px solid #ccc;  
+    overflow: scroll;
+    height: 130px;
+    padding: 5px;
+    margin-bottom: 15px;  
+}
+
+.adobe
+{
+    margin-top: 15px;    
+}
+
+.adobe p
+{
+    margin-bottom: 10px;    
+}
+
+.adobe_link
+{
+    display: block;
+    float: left;
+    background: url('Images/getReader.jpg') no-repeat;
+    height: 39px;
+    width: 158px;
+    margin-right: 10px;    
+}
+
+.seller_msg_txt_box
+{
+    display: block;
+    border: 1px solid #ccc;
+    height: 120px; 
+    width: 535px; 
+    overflow-x: hidden;
+    vertical-align: top;
+    padding: 5px;  
+    margin-bottom: 15px;
+}
+
+.send_msg_btn
+{
+    display: block;
+    float: right;
+    background: url('Images/sendMsgBtn.png') no-repeat;
+    height: 22px;
+    width: 96px;
+}
+
+/*----------END My Purchase Styles-------------*/
+
+/*----------BEGIN FAQ Styles-------------*/
+
+.faq_toggle_question
+{
+    padding-left: 20px;
+    margin: 10px 0;
+    background: url('Images/faqPlus.gif') 0 2px no-repeat;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.faq_toggle_on
+{
+    background: url('Images/faqMinus.gif') 0 2px no-repeat;   
+}
+
+.faq_toggle_answer
+{
+    margin-left: 20px;
+    display: none;
+    margin-bottom: 10px;
+}
+
+/*----------END FAQ Styles-------------*/
+
+/*------ c3 styles ---------*/
+#venueImgLarge
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
