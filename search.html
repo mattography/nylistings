@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0100)http://www.red-team-design.com/wp-content/uploads/2011/09/slick-login-form-with-html5-css3-demo.html -->
+<!------SO YOU WANT TO CHECK UNDER THE HOOD, HUH? LET ME KNOW WHAT YOU THINK: mattography-at-gmail-dot-com----->
 <html>
 <head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Create a nice login form using CSS3 and HTML5</title>

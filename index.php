@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!------SO YOU WANT TO CHECK UNDER THE HOOD, HUH? LET ME KNOW WHAT YOU THINK: mattography-at-gmail-dot-com----->
 <html>
     <head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
         <title>NY Apartment Listings</title>
