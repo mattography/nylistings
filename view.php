@@ -2,7 +2,7 @@
 <!------SO YOU WANT TO CHECK UNDER THE HOOD, HUH? LET ME KNOW WHAT YOU THINK: mattography-at-gmail-dot-com----->
 <html>
 <head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Create a nice login form using CSS3 and HTML5</title>
+<title>Search Results</title>
 <link href="mrt_base_style.css" rel="stylesheet" type="text/css">
 <style>
 
